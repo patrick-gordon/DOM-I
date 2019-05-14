@@ -51,9 +51,29 @@ navItems[4].textContent = 'About';
 navItems[5].textContent = 'Content';
 
 // cta image
-let codeImg = document.getElementById('cta-img');
-codeImg.setAttribute('src', )
+let codeImg = document.querySelector('#cta-img');
+codeImg.src = 'img/header-img.png';
+codeImg.alt = 'circular image of code snippet';
 
 
-let topH4 = document.getElementsByClassName()
-let topP = document.getElementsByClassName('p.textContent')
+//middle image
+let middleImg = document.getElementById('middle-img');
+middleImg.src = 'img/mid-page-accent.jpg';
+middleImg.alt = 'code snippet accross screen';
+
+
+//button query
+const btnQuery = document.querySelector('button');
+btnQuery.textContent = 'Get Started';
+
+let tagP = document.getElementsByTagName('p');
+tagP[0].textContent = 'Features Content lorem ipsun sad sd qSE qwe werq wqwecQ qewr qwer QRQrq wewqe QRQWERWERfWEfsEFWR WEFNBKJWNEF WjebnfKJbnswdkfg: WejfNBWkjenf WSDJFNBwlkjenf wsjkenfkjwenjkh ';
+
+tagP[1].textContent = 'About Content lorem ipsum jwkenfkj wekjfnlkwjef wejfnkwjenF  wekFJNkwjenf wekfjnwkejn wekjfnkwjenf wekjfnkwjenf wekjfnkwjenf wekjfnwkejfn wenfkjwenf wekjfnwkefn wefkjnwekfn';
+tagP[2].textContent = 'Services Content lorem ipsum jwkenfkj wekjfnlkwjef wejfnkwjenF  wekFJNkwjenf wekfjnwkejn wekjfnkwjenf wekjfnkwjenf wekjfnkwjenf wekjfnwkejfn wenfkjwenf wekjfnwkefn wefkjnwekfn';
+tagP[3].textContent = 'Product Content lorem ipsum jwkenfkj wekjfnlkwjef wejfnkwjenF  wekFJNkwjenf wekfjnwkejn wekjfnkwjenf wekjfnkwjenf wekjfnkwjenf wekjfnwkejfn wenfkjwenf wekjfnwkefn wefkjnwekfn';
+tagP[4].textContent = 'Vison Content lorem ipsum jwkenfkj wekjfnlkwjef wejfnkwjenF  wekFJNkwjenf wekfjnwkejn wekjfnkwjenf wekjfnkwjenf wekjfnkwjenf wekjfnwkejfn wenfkjwenf wekjfnwkefn wefkjnwekfn';
+tagP[5].textContent = '123 wallaby way street';
+tagP[6].textContent = 'Austin Texas';
+tagP[7].textContent = '1800(999)9999';
+tagP[8].textContent = 'Copyright Great Idea @2018'
