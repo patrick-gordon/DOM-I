@@ -61,11 +61,16 @@ let middleImg = document.getElementById('middle-img');
 middleImg.src = 'img/mid-page-accent.jpg';
 middleImg.alt = 'code snippet accross screen';
 
+//cta section
+// const headerTag1 = document.getElementsByClassName('cta-text');
+// headerTag1[0].textContent = 'DOM IS AWESOME';
 
-//button query
+//button query(cta)
 const btnQuery = document.querySelector('button');
 btnQuery.textContent = 'Get Started';
 
+
+//all p tags?
 let tagP = document.getElementsByTagName('p');
 tagP[0].textContent = 'Features Content lorem ipsun sad sd qSE qwe werq wqwecQ qewr qwer QRQrq wewqe QRQWERWERfWEfsEFWR WEFNBKJWNEF WjebnfKJbnswdkfg: WejfNBWkjenf WSDJFNBwlkjenf wsjkenfkjwenjkh ';
 
@@ -73,7 +78,26 @@ tagP[1].textContent = 'About Content lorem ipsum jwkenfkj wekjfnlkwjef wejfnkwje
 tagP[2].textContent = 'Services Content lorem ipsum jwkenfkj wekjfnlkwjef wejfnkwjenF  wekFJNkwjenf wekfjnwkejn wekjfnkwjenf wekjfnkwjenf wekjfnkwjenf wekjfnwkejfn wenfkjwenf wekjfnwkefn wefkjnwekfn';
 tagP[3].textContent = 'Product Content lorem ipsum jwkenfkj wekjfnlkwjef wejfnkwjenF  wekFJNkwjenf wekfjnwkejn wekjfnkwjenf wekjfnkwjenf wekjfnkwjenf wekjfnwkejfn wenfkjwenf wekjfnwkefn wefkjnwekfn';
 tagP[4].textContent = 'Vison Content lorem ipsum jwkenfkj wekjfnlkwjef wejfnkwjenF  wekFJNkwjenf wekfjnwkejn wekjfnkwjenf wekjfnkwjenf wekjfnkwjenf wekjfnwkejfn wenfkjwenf wekjfnwkefn wefkjnwekfn';
-tagP[5].textContent = '123 wallaby way street';
-tagP[6].textContent = 'Austin Texas';
-tagP[7].textContent = '1800(999)9999';
-tagP[8].textContent = 'Copyright Great Idea @2018'
+// tagP[5].textContent = '123 wallaby way street';
+// tagP[6].textContent = 'Austin Texas';
+// tagP[7].textContent = '1800(999)9999';
+// tagP[8].textContent = 'Copyright Great Idea @2018'
+
+
+
+
+
+const headerTag = document.getElementsByTagName('h4');
+headerTag[0].textContent = 'Features';
+headerTag[1].textContent = 'About';
+headerTag[2].textContent = 'Services';
+headerTag[3].textContent = 'Product';
+headerTag[4].textContent = 'Vision';
+
+
+
+const footer = document.getElementsByClassName('contact');
+const footerContent = Array.from(footer);
+footerContent[0].textContent = '123 wallaby lane';
+footerContent[1].textContent = 'Austin, Texas';
+footerContent[2].textContent = 'nemo@findingnemo.org'
